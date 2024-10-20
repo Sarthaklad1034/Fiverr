@@ -39,12 +39,12 @@ function Navbar() {
       <div className="container">
         <div className="logo">
           <Link className="link" to="/">
-            <span className="text">fiverr</span>
+            <span className="text">SkillBridge</span>
           </Link>
           <span className="dot">.</span>
         </div>
         <div className="links">
-          <span>Fiverr Business</span>
+          <span>SkillBridge Business</span>
           <span>Explore</span>
           <span>English</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}
@@ -90,32 +90,20 @@ function Navbar() {
         <>
           <hr />
           <div className="menu">
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?category=Graphics-Design">
               Graphics & Design
             </Link>
-            <Link className="link menuLink" to="/">
-              Video & Animation
-            </Link>
-            <Link className="link menuLink" to="/">
-              Writing & Translation
-            </Link>
-            <Link className="link menuLink" to="/">
-              AI Services
-            </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?category=Digital%20Marketing">
               Digital Marketing
             </Link>
-            <Link className="link menuLink" to="/">
-              Music & Audio
+            <Link className="link menuLink" to="/gigs?category=Writing-Translation">
+              Writing & Translation
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?category=Programming-Tech">
               Programming & Tech
             </Link>
-            <Link className="link menuLink" to="/">
-              Business
-            </Link>
-            <Link className="link menuLink" to="/">
-              Lifestyle
+            <Link className="link menuLink" to="/gigs?category=Photography">
+              Photography
             </Link>
           </div>
           <hr />

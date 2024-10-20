@@ -86,7 +86,7 @@ function Home() {
         <div className="container">
           <h1>Explore the marketplace</h1>
           <div className="items">
-            <div className="item" onClick={() => handleCategoryClick("graphics-design")}>
+            <div className="item" onClick={() => handleCategoryClick("Graphics-Design")}>
               <img
                 src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/graphics-design.d32a2f8.svg"
                 alt=""
@@ -94,7 +94,7 @@ function Home() {
               <div className="line"></div>
               <span>Graphics & Design</span>
             </div>
-            <div className="item">
+            <div className="item" onClick={() => handleCategoryClick("Digital Marketing")}>
               <img
                 src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/online-marketing.74e221b.svg"
                 alt=""
@@ -103,7 +103,7 @@ function Home() {
 
               <span>Digital Marketing</span>
             </div>
-            <div className="item">
+            <div className="item" onClick={() => handleCategoryClick("Writing-Translation")}>
               <img
                 src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/writing-translation.32ebe2e.svg"
                 alt=""
@@ -111,23 +111,7 @@ function Home() {
               <div className="line"></div>
               <span>Writing & Translation</span>
             </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/video-animation.f0d9d71.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Video & Animation</span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/music-audio.320af20.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Music & Audio</span>
-            </div>
-            <div className="item" onClick={() => handleCategoryClick("programming-tech")}>
+            <div className="item" onClick={() => handleCategoryClick("Programming-Tech")}>
               <img
                 src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/programming.9362366.svg"
                 alt=""
@@ -135,31 +119,7 @@ function Home() {
               <div className="line"></div>
               <span>Programming & Tech</span>
             </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/business.bbdf319.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Business</span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/lifestyle.745b575.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Lifestyle</span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/data.718910f.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Data</span>
-            </div>
-            <div className="item">
+            <div className="item" onClick={() => handleCategoryClick("Photography")}>
               <img
                 src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/photography.01cf943.svg"
                 alt=""
@@ -174,7 +134,7 @@ function Home() {
         <div className="container">
           <div className="item">
             <h1>
-              fiverr <i>business</i>
+            SkillBridge <i>business</i>
             </h1>
             <h1>
               A business solution designed for <i>teams</i>
@@ -197,8 +157,8 @@ function Home() {
               <img src="./img/check.png" alt="" />
               Manage teamwork and boost productivity with one powerful workspace
             </div>
-            <Link to="/business">
-              <button>Explore Fiverr Business</button>
+            <Link to="#">
+              <button>Explore SkillBridge Business</button>
             </Link>
           </div>
           <div className="item">

@@ -44,7 +44,7 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-      <span className="breadcrumbs">Liverr &gt; {category || "All Categories"} &gt;</span>
+      <span className="breadcrumbs">SkillBridge &gt; {category || "All Categories"} &gt;</span>
 
 
 
@@ -90,3 +90,4 @@ function Gigs() {
 }
 
 export default Gigs;
+
